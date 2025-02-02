@@ -121,7 +121,7 @@ const ProductCard = ({ product }) => {
           <ModalBody>
             <VStack spacing={4}>
               <Input
-                placeholder="Product Name"
+                placeholder="Insert Product Name"
                 name="name"
                 value={updatedProduct.name}
                 onChange={(e) =>
